@@ -2,6 +2,7 @@ body{
     background-color: #000000;
     font-family: 'Arial', sans-serif;
     color: #FFFFFF;
+    width:1000 px;
 }
 
 .description{
@@ -11,14 +12,14 @@ body{
     height: 300px;
     color: #FFFFFF;
     position:absolute;
-    margin-top: 700px;
+    margin-top: 900px;
 }
 .hr{
     border: 2px solid #FFFFFF;
     width: 950px;
     margin: 20px;
     position:absolute;
-    margin-top: 688px;
+    margin-top: 888px;
     
 }
 .hr2{
@@ -26,36 +27,52 @@ body{
     width: 950px;
     margin: 20px;
     position:absolute;
-    margin-top: 950px;
+    margin-top: 1150px;
+}
+.hr3{
+    border: 2px solid #FFFFFF;
+    width: 950px;
+    margin: 20px;
+    position:absolute;
+    margin-top: 2000px;
+}
+.hr4{
+    border: 2px solid #FFFFFF;
+    width: 950px;
+    margin: 20px;
+    position:absolute;
+    margin-top: 1650px;
 }
 .right{
     position: absolute;
     margin-top: 140px;
-    margin-left: 200px;
-    width: 400px;
-    height: 300px;
+    margin-left: 10px;
+    width: 300px;
+    height: 220px;
 }
 .left{
     position: absolute;
     margin-top: 140px;
-    margin-left: 900px;
-    width: 400px;
-    height: 300px;
+    margin-left:530px;
+     width: 300px;
+    height: 220px;
     transform:rotateY(180deg );
 }
 .skull{
     position: absolute;
-    margin-top: 10px;
-    margin-left:450px;
-    width: 600px;
-    height: 500px;
+    margin-top:80px;
+    margin-left:220px;
+    width: 400px;
+    height:350px;
 }
 .nav {
     display: flex;              /* Activate flexbox */
     justify-content: space-between; /* Logo left, links right */
     align-items: center;        /* Vertical center */
-    padding: 10px 20px;
-    background: black;
+    padding: 1px 1px;
+    
+   
+    gap: 1px;
 }
 a{
     color: #FFFFFF;
@@ -64,14 +81,14 @@ a{
     margin-left: 100px;
 }
 .title{
-    font-size: 80px;
+    font-size: 50px;
     margin: 20px;
-    width: 1100px;
+    width: 1000px;
     height: 300px;
     color: #FFFFFF;
     position:absolute;
-    margin-top: 450px;
-    margin-left: 210px;
+    margin-top: 400px;
+    margin-left: 80px;
 }   
 
 .ba{
@@ -82,25 +99,19 @@ a{
     height: 700px;
 }
 
-.wav1{
-      position: absolute;
-    margin-top: 1760px;
-    margin-left: 1000px;
-    width: 240px;
-    height: 140px;
-}
-.wav2{
-      position: absolute;
-        margin-top: 1760px;
-    margin-left: 1240px;
-    width: 275px;
-    height: 140px;
+body::ship{
+      position:absolute;
+    margin-top: 0px;
    
+   
+ 
+
 }
+
 .mm{
     position: absolute;
-    margin-top: 1200px;
-    margin-left: 950px;
+    margin-top: 1130px;
+    margin-left: 100px;
     width: 500px;
     height: 500px;
     opacity: 20%;
@@ -109,10 +120,12 @@ a{
 }
 .btn{
     position: absolute;
-    margin-top: 1600px;
-    margin-left: 1000px;
+    margin-top: 1550px;
+    margin-left: 150px;
     width: 400px;
     height: 50px;
+    border: none;
+    border-radius: 15px;
     
     background-color: #ffffff
 }
